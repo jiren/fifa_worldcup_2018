@@ -38,23 +38,6 @@ function renderGroups(){
    });
 }
 
-function renderTeams(){
-  var tmplFn = TemplateBuilder($("#team-template").html());
-  var container = $("#teams-filter");
-
-  $.getJSON(
-    'https://raw.githubusercontent.com/openfootball/world-cup.json/master/2018/worldcup.teams.json',
-    function(response){
-      DATA.teams = response.teams.sort(function(a, b) { return a.name > b.name});
-      DATA.teams.forEach(function(team){
-        container.append(tmplFn(team));
-      });
-
-      renderMatches();
-    }
-  )
-}
-
 function renderMatches(){
   var tmplFn = TemplateBuilder($("#match-template").html());
   var container = $("#matches");
