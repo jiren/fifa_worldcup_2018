@@ -1,0 +1,64 @@
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #E00013 !important;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+.match{
+  padding: 8px;
+  margin: 4px 0;
+}
+
+.teams-filter{
+  margin-top: 8px;
+}
+
+.flag-icon-po.flag-icon-squared {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/1x1/pr.svg);
+}
+
+.flag-icon-ks.flag-icon-squared {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/1x1/sa.svg);
+}
+
+.flag-icon-ur.flag-icon-squared {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/1x1/uy.svg);
+}
+
+.flag-icon-en.flag-icon-squared {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/1x1/gb.svg);
+}
+
+.flag-icon-su.flag-icon-squared {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/1x1/ch.svg);
+}
+
+.flag-icon-ko.flag-icon-squared {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/1x1/kr.svg);
+}
+
+.flag-icon-sw.flag-icon-squared {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/1x1/se.svg);
+}
+
+.flag-icon-tu.flag-icon-squared {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/1x1/tn.svg);
+}
+
+.groups{
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
